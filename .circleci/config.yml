@@ -9,4 +9,6 @@
     
      steps:
        - checkout
-       - run: dotnet build src\FizzBuzz.sln
+       - run: 
+           command: dotnet build 
+           working_directory: ~/src
