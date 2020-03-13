@@ -10,5 +10,5 @@
      steps:
        - checkout
        - run: 
-           command: dotnet build 
            working_directory: ~/src
+           command: dotnet build 
